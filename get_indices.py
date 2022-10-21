@@ -11,5 +11,5 @@ def getindices():
                                         indice = [key for key in dictionary if dictionary[key] == a]
                                         indice1 = [key for key in dictionary if dictionary[key] == b]
           return indice+indice1
-          
+
 print(getindices())
